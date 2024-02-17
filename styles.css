@@ -1,0 +1,165 @@
+body {
+    background-color: #f0cf40;
+    font-family: "Figtree", sans-serif;
+}
+
+main {
+    background-color: #FEFEFE;
+    width: 382px;
+    height: 522px;
+    border-radius: 15px;
+    box-shadow: 10px 8px 0px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+    font-weight: 800;
+}
+
+
+
+h1:hover {    
+    cursor: pointer; /* Pointer/hand icon */
+    font-weight: bolder; /*makes the text bold when hovering on it*/
+    color: #4863A0; 
+  
+}
+
+main:active {       
+    color: rgb(5, 3, 0);
+    opacity: 1;
+    box-shadow: 15px 17px 0px 0px rgba(0,0,0,0.75);    
+}
+
+
+
+footer {     
+    margin-top: 37px;
+}
+
+
+.code-pic {
+    border-radius: 15px;
+    width: 335px;
+    height:199px;
+    margin: 23px 23px auto 24px;
+
+}
+
+.content {
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+
+
+
+.element {  
+   /* Flexbox properties */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+    /* Container dimensions */
+    width: 100vw; /* 100% of the viewport width - making sure that the container's size adapts to different screen sizes*/
+    height: 100vh; /* 100% of the viewport height - making sure that the container's size adapts to different screen sizes*/
+    
+    /* Remove any margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Media query for desktop view */
+@media (min-width: 768px) {
+    /* For desktop view, adjust container dimensions and center horizontally */
+    .element {
+        height: 44.5rem; /* Adjust height for desktop view */
+        width: 76.25rem; /* Adjust width for desktop view */
+        margin: 87px auto; /* Center horizontally with top margin for desktop view */
+        padding-top: 34px; /* Adjust top padding for desktop view */
+        padding-bottom: 34px; /* Adjust bottom padding for desktop view */
+    }
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+    main {
+        width: calc(100% - 40px); /* Adjusting the width for mobile view */
+        padding: 0 2px; /* Adding padding to the left and right sides */
+        box-sizing: border-box; /* Including padding and border in the element's total width and height */
+        margin-right: 21px;
+    }
+    
+    .code-pic {
+        max-width: 85.5%;
+        min-width: 301px;
+        height: auto;
+        margin-left: 14px;
+    }
+
+    .content {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+
+    .text-1, .date {
+        font-size: 13.5px;
+    }
+
+   .description p {
+        line-height: 1.5em;
+   }
+   
+   .person-section {
+        margin-top: 23px;
+   }
+
+   .person-name {
+        margin-top: 19px;
+   }
+}
+
+.date {
+    font-weight: 595;
+}
+
+.description {
+    color: #808080;
+    font-weight: 470;
+    line-height: 1.25em;
+}
+
+
+.person-name {
+    font-weight: 805;
+    position: relative;
+    left: 48px;
+    bottom: 47px;
+    margin-right: 76px;
+}
+
+.person-section {
+    height: 45px;
+}
+
+.profile-pic {
+    max-width: 10.5%;
+}
+
+
+.title {
+  /*  background-color: #ebc84e; */
+    background-color: #cdedb6;
+    border-radius: 6px;
+    width: 82px;
+    height: 28px;
+    margin-top: 27px;
+}
+
+
+.text-1 {
+    text-align: center;
+    font-weight: 800;
+    padding: 4px;
+}
