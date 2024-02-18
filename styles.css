@@ -122,18 +122,18 @@ footer {
 }
 
 .date {
-    font-weight: 595;
+    font-weight: 600;
 }
 
 .description {
     color: #808080;
-    font-weight: 470;
+    font-weight: 500;
     line-height: 1.25em;
 }
 
 
 .person-name {
-    font-weight: 805;
+    font-weight: 800;
     position: relative;
     left: 48px;
     bottom: 47px;
