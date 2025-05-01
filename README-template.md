@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/andr-ch/Blog-preview-card.git]
-- Live Site URL: [https://andr-ch.github.io/Blog-preview-card/]
+- Solution URL: [https://github.com/npc-makinika/Blog-preview-card.git]
+- Live Site URL: [https://npc-makinika.github.io/Blog-preview-card/]
 
 ## My process
 
